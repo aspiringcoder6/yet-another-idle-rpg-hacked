@@ -1785,7 +1785,7 @@ Multiplies AP with daggers by ${
     description: "Get better with mining the ores",
     base_xp_cost: 10,
     visibility_treshold: 4,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
   });
 
   skills["Herbalism"] = new Skill({
@@ -1794,7 +1794,7 @@ Multiplies AP with daggers by ${
     description: "Knowledge of useful plants and mushrooms",
     base_xp_cost: 10,
     visibility_treshold: 4,
-    xp_scaling: 1.6,
+    xp_scaling: 1.01,
   });
 
   skills["Animal handling"] = new Skill({
@@ -1804,7 +1804,7 @@ Multiplies AP with daggers by ${
       "Knowledge and skills required to deal with a wide variety of animals",
     base_xp_cost: 10,
     visibility_treshold: 4,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
   });
 })();
 
@@ -1816,7 +1816,7 @@ Multiplies AP with daggers by ${
     description:
       "The art of preparing different elements and assembling them together",
     base_xp_cost: 40,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
     max_level: 60,
   });
   skills["Smelting"] = new Skill({
@@ -1824,7 +1824,7 @@ Multiplies AP with daggers by ${
     names: { 0: "Smelting" },
     description: "The art of crafting",
     base_xp_cost: 40,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
     max_level: 60,
   });
   skills["Forging"] = new Skill({
@@ -1832,7 +1832,7 @@ Multiplies AP with daggers by ${
     names: { 0: "Forging" },
     description: "Turning raw metal into something useful",
     base_xp_cost: 40,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
     max_level: 60,
   });
   skills["Cooking"] = new Skill({
@@ -1840,7 +1840,7 @@ Multiplies AP with daggers by ${
     names: { 0: "Cooking" },
     description: "Making the unedible edible",
     base_xp_cost: 40,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
     max_level: 60,
   });
   skills["Alchemy"] = new Skill({
