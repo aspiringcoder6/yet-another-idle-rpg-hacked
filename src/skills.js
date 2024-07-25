@@ -1776,7 +1776,7 @@ Multiplies AP with daggers by ${
     description: "Get better with chopping the wood",
     base_xp_cost: 10,
     visibility_treshold: 4,
-    xp_scaling: 1,
+    xp_scaling: 1.01,
   });
 
   skills["Mining"] = new Skill({
