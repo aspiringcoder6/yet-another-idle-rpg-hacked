@@ -923,7 +923,7 @@ Multiplies attack speed and AP in unarmed combat by ${
     names: { 0: "Presence sensing" },
     description: "Ability to sense a presence without using your eyes",
     base_xp_cost: 60,
-    xp_scaling: 2,
+    xp_scaling: 1.4,
     max_level: 20,
     get_effect_description: () => {
       return `Reduces extreme darkness penalty by ^${
