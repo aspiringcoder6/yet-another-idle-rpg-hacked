@@ -1816,7 +1816,7 @@ Multiplies AP with daggers by ${
     description:
       "The art of preparing different elements and assembling them together",
     base_xp_cost: 40,
-    xp_scaling: 1.5,
+    xp_scaling: 1,
     max_level: 60,
   });
   skills["Smelting"] = new Skill({
