@@ -1861,7 +1861,7 @@ Multiplies AP with daggers by ${
     description:
       "As it gets damaged, your skin regenerates to be tougher and tougher",
     base_xp_cost: 400,
-    xp_scaling: 1.9,
+    xp_scaling: 1.4,
     max_level: 30,
     max_level_bonus: 30,
     get_effect_description: () => {
