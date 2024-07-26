@@ -870,7 +870,7 @@ Multiplies attack speed and AP in unarmed combat by ${
     names: { 0: "Night vision" },
     description: "Ability to see in darkness",
     base_xp_cost: 600,
-    xp_scaling: 1.9,
+    xp_scaling: 1.4,
     max_level: 10,
     get_effect_description: () => {
       return `Reduces darkness penalty (except for 'pure darkness') by ^${
