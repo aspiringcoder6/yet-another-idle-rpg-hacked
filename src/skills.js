@@ -1335,7 +1335,7 @@ Multiplies AP with daggers by ${
       "Even a simple action of plowing some fields, can be performed better with skills and experience",
     base_xp_cost: 40,
     max_level: 10,
-    xp_scaling: 1.6,
+    xp_scaling: 1.4,
     max_level_coefficient: 2,
     rewards: {
       milestones: {
