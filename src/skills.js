@@ -1424,8 +1424,8 @@ Multiplies AP with daggers by ${
     names: { 0: "Sleeping" },
     description:
       "Good, regular sleep is the basis of getting stronger and helps your body heal.",
-    base_xp_cost: 1000,
-    xp_scaling: 2,
+    base_xp_cost: 500,
+    xp_scaling: 1.01,
     max_level: 10,
     max_level_coefficient: 2.5,
     rewards: {
