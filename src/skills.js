@@ -1860,7 +1860,7 @@ Multiplies AP with daggers by ${
     names: { 0: "Tough skin", 5: "Wooden skin", 10: "Iron skin" },
     description:
       "As it gets damaged, your skin regenerates to be tougher and tougher",
-    base_xp_cost: 400,
+    base_xp_cost: 200,
     xp_scaling: 1.4,
     max_level: 30,
     max_level_bonus: 30,
