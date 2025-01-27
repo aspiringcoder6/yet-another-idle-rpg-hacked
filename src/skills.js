@@ -78,7 +78,7 @@ class Skill {
 
     this.rewards = rewards; //leveling rewards (and levels on which they are given)
 
-    this.xp_scaling = xp_scaling > 1 ? 1.01 : 1.01;
+    this.xp_scaling = 1.01;
     //how many times more xp needed for next level
   }
 
@@ -1335,7 +1335,7 @@ Multiplies AP with daggers by ${
       "Even a simple action of plowing some fields, can be performed better with skills and experience",
     base_xp_cost: 40,
     max_level: 10,
-    xp_scaling: 1.4,
+    xp_scaling: 1.01,
     max_level_coefficient: 2,
     rewards: {
       milestones: {
