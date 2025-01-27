@@ -38,7 +38,7 @@ class Skill {
     },
     parent_skill = null,
     rewards,
-    xp_scaling = 1.4,
+    xp_scaling = 1.01,
     is_unlocked = true,
   }) {
     if (skill_id === "all" || skill_id === "hero" || skill_id === "all_skill") {
@@ -78,7 +78,7 @@ class Skill {
 
     this.rewards = rewards; //leveling rewards (and levels on which they are given)
 
-    this.xp_scaling = xp_scaling > 1 ? xp_scaling : 1.6;
+    this.xp_scaling = xp_scaling > 1 ? 1.01 : 1.01;
     //how many times more xp needed for next level
   }
 
